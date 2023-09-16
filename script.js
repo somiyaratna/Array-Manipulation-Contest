@@ -32,7 +32,6 @@ function removeAdmin() {
     }
   }
   console.log(`Admins that got removed`, removedAdmins);
-  console.log(`After admins removed, data:`, data);
   console.log(
     `NOTE:Please refresh the page after using Remove Admins button, because after removing admins, there might not be enough elements left in data object, which might lead to other buttons not working :)`
   );
